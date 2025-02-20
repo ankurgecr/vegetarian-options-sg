@@ -2,33 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Custom Map</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Custom Map</title>
 
-    <!-- Include Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <!-- Include Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    <style>
-        /* Make the map fullscreen */
-        #map {
-          height: 100vh;
-          width: 100%;
-        }
-    </style>
+  <style>
+    /* Make the map fullscreen */
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- Map Container -->
-<div id="map"></div>
+  <!-- Map Container -->
+  <div id="map"></div>
 
-<!-- Include Leaflet JS -->
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Include Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<script>
+  <script>
     // Set your home's latitude and longitude
-    const homeLocation = [1.3883137, 103.8425532];  // Example: Singapore coordinates
+    const homeLocation = [1.388568, 103.843720];  // NCS Hub Block C coordinates
 
     // Initialize the map and set your home as the center
     const map = L.map('map', {
@@ -85,8 +85,8 @@
       },
       {
         name: "Rathana Bhavan Indian Pure Vegetarian Restaurant",
-        lat: 1.4295155,
-        lng: 103.8332186,
+        lat: 1.4295484580092985,
+        lng: 103.83593749563478,
         info: "A hidden gem for pure vegetarian delights in Northpoint City!",
         address: "Northpoint City - North Wing - B2 Kopitiam, Singapore 769098",
         hours: "7:00 AM – 9:45 PM",
@@ -185,7 +185,7 @@
     // map.on('moveend', function () {
     //   map.setView(homeLocation);
     // });
-</script>
+  </script>
 
 </body>
 
