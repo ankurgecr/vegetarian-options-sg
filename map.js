@@ -93,7 +93,7 @@ const restaurants = [
     ambience: "Casual restaurant",
     waiting_time: "2–5 min queue + 5–10 min serving",
     payment: "Cash, Cards, PayNow",
-    halal: "✅ Yes",
+    halal: "❌ No (but all-vegetarian menu)",
     accessibility: "♿ Wheelchair-friendly",
     notes: "Exit Northpoint City and walk towards Golden Village—Komala’s is located outside, facing Yishun Central Road.",
     image: "https://lh3.googleusercontent.com/p/AF1QipPlAB8w6LQJv9WUnFiCjbXkenRalk_eFFYcwSog=s680-w680-h510"
@@ -119,6 +119,28 @@ const restaurants = [
     accessibility: "♿ Wheelchair-friendly, kid-friendly menu available",
     notes: "Exit Northpoint City bus terminal from the last gate, then walk towards Yishun Garden (~2 minutes). Recommended Dishes: Try the Crispy Bhindi Fry, Veg Kothu Prata, and Samosa for a flavorful meal! 🍽️",
     image: "https://lh3.googleusercontent.com/p/AF1QipN6LYF4p7mPn4HlFH4ZpSAuwt9hxl2x3gq_fcZq=s1360-w1360-h1020"
+  },
+  {
+      name: "Greendot - Northpoint",
+      lat: 1.429206880433387,
+      lng: 103.83616374287432,
+      info: "A modern and healthy vegetarian dining spot in Northpoint City!",
+      address: "930 Yishun Avenue 2, #B2-09/11, Northpoint City North Wing, Singapore 769098",
+      hours: "10:30 AM – 9:30 PM",
+      rating: "⭐⭐⭐⭐ (4.3/5)",
+      price: "$8 – $18",
+      vegetarian: "Bento sets, Laksa, Herbal Soup, Mushroom Hotpot, Noodles, Rice Bowls, Salad Bowls",
+      vegan: "✅ Yes",
+      menu: "Asian fusion vegetarian cuisine, focusing on plant-based and healthy meals",
+      transport: "🚌 Bus 854/857 (2 stops) | 🚗 Car/Grab (15 min) | 🚌 NCS Lunch Shuttle (Wed only)",
+      travel_time: "~20 minutes",
+      ambience: "Modern casual dining",
+      waiting_time: "5–10 minutes queue, food served within 10 minutes",
+      payment: "Cash, Cards, PayNow, NETS",
+      halal: "❌ No (but all-vegetarian menu)",
+      accessibility: "♿ Wheelchair-friendly",
+      notes: "Located at Basement 2 (B2) North Wing of Northpoint City—easily accessible after entering the mall. Recommended Dishes: Try the Laksa, Mushroom Hotpot, or Bento Sets for a nutritious and fulfilling meal! 🍜🍚",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP4SN8wTHilvZh8NqQ2C9CMaZgEBSt4on0bn6c1=s1360-w1360-h1020"
   }
 ];
 
